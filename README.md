@@ -12,14 +12,24 @@
 
 A data driven sales performance dashboard analyzing over 9,575 retail transactions to uncover what’s working and what’s not. This project explores profit margins, customer segments, product categories, and shipping efficiency to deliver actionable insights and KPIs. Includes interactive pivot tables, visual dashboards, and recommendations for business optimization.
 
+![Customer](https://github.com/user-attachments/assets/10c8bc6b-6cc8-4024-87f3-a060610196a9)
+
 ### Data Sources
 
-The dataset used in this project was provided as a sales_data.csv file and containing detailed information about each sales made for analysis purposes
+- Dataset Name: Sample Superstore Dataset. [Download here](https://www.kaggle.com/datasets/vivek468/superstore-dataset-final)
+- Format: CSV file 
+
+Fields Included:
+
+- Order Details: Order ID, Order Date, Ship Date, Ship Mode
+- Customer Info: Customer ID, Customer Name, Segment, Region, Country
+- Product Info: Product ID, Category, Sub-Category, Product Name
+- Performance Metrics: Sales, Quantity, Discount, Profit 
 
 ### Tools
 
-  - MySql - Data cleaning [Download here](http://miro.com)
-  - Excel - Pivot tables and dashboard layout [Download here](http://miro.com)
+  - MySql - Data cleaning 
+  - Excel - Pivot tables and dashboard layout 
 
 ### Data Cleaning
 
@@ -125,6 +135,7 @@ from saging2;
 ```
 
 ### Key Insight
+
 What’s Working and What’s Not
 
 1. High-Performing Products:
@@ -152,7 +163,7 @@ What’s Working and What’s Not
 
   - Double down on high-margin items (Copiers, Paper, Accessories).
   - Review pricing/costs for loss-making items like Tables and Machines.
-  - Reassess discount strategy for Binders and Chairs — consider margin-based discount control.
+  - Reassess discount strategy for Binders and Chairs consider margin-based discount control.
   - Improve efficiency in Standard Class shipping to reduce delays.
 
 ### Conclusion
@@ -160,8 +171,8 @@ What’s Working and What’s Not
 This analysis reveals critical insights into the performance of sales, product categories, customer segments, and shipping practices.
 
   - The business demonstrates strong overall performance, with over $2.26 million in sales and a profit of $281K, supported by high-margin products like Copiers, Accessories, and Paper.
-  - However, several high-revenue items  such as Tables, Machines, and Binders are either underperforming or even incurring losses, primarily due to low or negative profit margins.       This suggests potential inefficiencies in pricing, procurement, or discount strategies.
-  - The Consumer segment and Western region lead in both sales and profitability, indicating these are strong markets worth investing further in.
+  - However, several high sale items such as Tables, Machines, and Binders are either underperforming or even incurring losses, primarily due to low or negative profit margins.       		This suggests potential inefficiencies in pricing, procurement, or discount strategies.
+  - The Consumer segment and Quarters lead in both sales and profitability, indicating these are strong markets worth investing further in.
   - Shipping analysis reveals that Same Day and First Class methods are more efficient than Standard Class, which has the longest delays, potentially impacting customer satisfaction.    
 
   
